@@ -9,11 +9,13 @@ This framework is not meant to be used for complex web applications, only for si
 ## NPM
 
 ### Runtime
+
 [![NPM version](https://img.shields.io/npm/v/photon-re.svg)](https://npmjs.org/package/photon-re "View this project on NPM")
 [![NPM downloads](https://img.shields.io/npm/dm/photon-re.svg)](https://npmjs.org/package/photon-re "View this project on NPM")
 ![Types included](https://badgen.net/npm/types/tslib)
 
 ### CLI (Compiler)
+
 [![NPM version](https://img.shields.io/npm/v/photon-cli.svg)](https://npmjs.org/package/photon-cli "View this project on NPM")
 [![NPM downloads](https://img.shields.io/npm/dm/photon-cli.svg)](https://npmjs.org/package/photon-cli "View this project on NPM")
 
@@ -68,27 +70,26 @@ yarn add -D photon-cli
 <photon:router
   id="root"
   data-content="/content"
-  data-default-site="home"
+  data-default="home"
   data-fallback="404"
 ></photon:router>
 ```
 
 - `data-content` is the location of the subpages that should get injected into the router.
-- `data-default-site` is loaded if no path (for a subpage) is given in the url.
+- `data-default` is loaded if no path (for a subpage) is given in the url.
 - `data-fallback` is loaded if the the subpage specified by the url was not found. Server Setup is needed.
 
 ### Add anchors for navigation to the body
 
 ```html
 <nav>
-  <a data-target="#root" data-route="info">Info</a>
-  <a data-target="#root" data-route="portfolio">Portfolio</a>
-  <a data-target="#root" data-route="links">Links</a>
+  <a data-route="info">Info</a>
+  <a data-route="portfolio">Portfolio</a>
+  <a data-route="links">Links</a>
 </nav>
 ```
 
 - `data-route` specifies the name of the subpage that should be loaded on click.
-- `data-target` _(optional)_ takes a selector (like `#root`) for a target router. If this attribute is not given, the router that is found first is used.
 
 ### For special functionalities read the documentation
 
