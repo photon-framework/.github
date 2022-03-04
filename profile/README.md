@@ -10,12 +10,14 @@ This framework is not meant to be used for complex web applications, only for si
 
 #### Runtime
 
+[![CI](https://github.com/photon-framework/runtime/actions/workflows/ci.yaml/badge.svg)](https://github.com/photon-framework/runtime/actions/workflows/ci.yaml)
 [![NPM version](https://badgen.net/npm/v/photon-re)](https://npmjs.org/package/photon-re)
 [![NPM downloads](https://badgen.net/npm/dt/photon-re)](https://npmjs.org/package/photon-re)
 ![Types included](https://badgen.net/npm/types/photon-re)
 
 #### CLI (Compiler)
 
+[![CI](https://github.com/photon-framework/cli/actions/workflows/ci.yaml/badge.svg)](https://github.com/photon-framework/cli/actions/workflows/ci.yaml)
 [![NPM version](https://badgen.net/npm/v/photon-cli)](https://npmjs.org/package/photon-cli)
 [![NPM downloads](https://badgen.net/npm/dt/photon-cli)](https://npmjs.org/package/photon-cli)
 [![Types included](https://badgen.net/npm/types/photon-cli)](https://npmjs.org/package/photon-cli)
