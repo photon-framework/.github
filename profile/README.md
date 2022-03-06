@@ -53,3 +53,17 @@ Basic features are available without client-side JavaScript.
 
 1. [Quick Start](https://photon-framework.github.io/quickstart)
 1. [Troubleshooting](https://photon-framework.github.io/troubleshooting)
+
+## Badge
+
+Markdown [![γ photon](https://badgen.net/badge/%CE%B3/photon/purple)](https://github.com/photon-framework "build with photon")
+
+```markdown
+[![γ photon](https://badgen.net/badge/%CE%B3/photon/purple)](https://github.com/photon-framework "build with photon")
+```
+
+HTML <a href="https://github.com/photon-framework" title="build with photon"><img style="height:1em" src="https://badgen.net/badge/%CE%B3/photon/purple" /></a>
+
+```html
+<a href="https://github.com/photon-framework" title="build with photon"><img style="height:1em" src="https://badgen.net/badge/%CE%B3/photon/purple" /></a>
+```
