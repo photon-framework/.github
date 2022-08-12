@@ -8,7 +8,7 @@ This framework is not meant to be used for complex web applications, only for si
 
 ## NPM
 
-### [NPM Organisation](https://www.npmjs.com/settings/phos-fw/packages)
+### [NPM Organisation](https://www.npmjs.com/org/phos-fw)
 
 ### [Runtime](https://www.npmjs.com/package/photon-re)
 
